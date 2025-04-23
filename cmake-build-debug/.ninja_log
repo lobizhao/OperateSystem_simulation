@@ -1,0 +1,13 @@
+# ninja log v5
+3	497	7669895382379854	CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj	e769b370460eda3c
+508	645	7669895383817631	OperateSystem_simulation.exe	d57fac4c771585c3
+21	390	7670956022415591	build.ninja	51ea2842005f97ba
+20	425	7670956027204684	CMakeFiles/OperateSystem_simulation.dir/LRU_cache.cpp.obj	4804f9c822c69a19
+23	498	7670956027934573	CMakeFiles/OperateSystem_simulation.dir/myList.cpp.obj	2188e72aa1a9c7f1
+18	654	7670956029488596	CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj	e769b370460eda3c
+654	929	7670956032205136	OperateSystem_simulation.exe	4eb9e5dbc318d029
+7	456	7670957007406571	CMakeFiles/OperateSystem_simulation.dir/myList.cpp.obj	2188e72aa1a9c7f1
+4	592	7670957008760707	CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj	e769b370460eda3c
+593	681	7670957009613512	OperateSystem_simulation.exe	4eb9e5dbc318d029
+4	558	7670957099788970	CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj	e769b370460eda3c
+558	647	7670957100650229	OperateSystem_simulation.exe	4eb9e5dbc318d029
