@@ -49,12 +49,6 @@ cmake_ninja_workdir = D$:/os_review/OperateSystem_simulation/cmake-build-debug/
 
 build cmake_object_order_depends_target_OperateSystem_simulation: phony || CMakeFiles/OperateSystem_simulation.dir
 
-build CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj: CXX_COMPILER__OperateSystem_simulation_unscanned_Debug D$:/os_review/OperateSystem_simulation/main.cpp || cmake_object_order_depends_target_OperateSystem_simulation
-  DEP_FILE = CMakeFiles\OperateSystem_simulation.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\OperateSystem_simulation.dir
-  OBJECT_FILE_DIR = CMakeFiles\OperateSystem_simulation.dir
-
 build CMakeFiles/OperateSystem_simulation.dir/LRU_cache.cpp.obj: CXX_COMPILER__OperateSystem_simulation_unscanned_Debug D$:/os_review/OperateSystem_simulation/LRU_cache.cpp || cmake_object_order_depends_target_OperateSystem_simulation
   DEP_FILE = CMakeFiles\OperateSystem_simulation.dir\LRU_cache.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
@@ -75,7 +69,7 @@ build CMakeFiles/OperateSystem_simulation.dir/myList.cpp.obj: CXX_COMPILER__Oper
 #############################################
 # Link the executable OperateSystem_simulation.exe
 
-build OperateSystem_simulation.exe: CXX_EXECUTABLE_LINKER__OperateSystem_simulation_Debug CMakeFiles/OperateSystem_simulation.dir/main.cpp.obj CMakeFiles/OperateSystem_simulation.dir/LRU_cache.cpp.obj CMakeFiles/OperateSystem_simulation.dir/myList.cpp.obj
+build OperateSystem_simulation.exe: CXX_EXECUTABLE_LINKER__OperateSystem_simulation_Debug CMakeFiles/OperateSystem_simulation.dir/LRU_cache.cpp.obj CMakeFiles/OperateSystem_simulation.dir/myList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OperateSystem_simulation.dir

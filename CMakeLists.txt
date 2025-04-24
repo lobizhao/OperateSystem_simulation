@@ -3,8 +3,7 @@ project(OperateSystem_simulation)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(OperateSystem_simulation main.cpp
+add_executable(OperateSystem_simulation
         LRU_cache.cpp
-        LRU_cache.h
         myList.cpp
 )
